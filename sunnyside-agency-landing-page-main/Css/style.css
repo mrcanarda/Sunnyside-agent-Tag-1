@@ -1,0 +1,97 @@
+/**************************/
+/* HEADER */
+/**************************/
+
+
+.ctan {
+    background-image: 
+    url("../images/desktop/image-header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+/**************************/
+/* LOGO */
+/**************************/
+
+.logo {
+    margin-left: 2rem;
+    margin-top: 1.2rem;
+}
+
+/**************************/
+/* NAV */
+/**************************/
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-right: 2rem;
+    margin-right: 1.4rem;
+    margin-top: 1.2rem;
+    /*font-family: 'Fraunces', serif;*/
+    font-family: 'Barlow', sans-serif;
+
+  }
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #fff;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 0.2rem 2rem;
+  border-radius: 18px;
+  color: black;
+  background-color: #fff;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: transparent;
+}
+
+/**************************/
+/* HERO TEXT */
+/**************************/
+
+.heading-primary {
+font-size: 3.4rem;
+margin-left: 28rem;
+font-weight: 900;
+color: #fff;
+letter-spacing: 1rem;
+margin-top: 4.2rem;
+font-family: 'Fraunces', serif;
+}
+
+/**************************/
+/* STEPS */
+/**************************/
+
+
+.step-text-box {
+    background-color: yellow;
+  
+}
